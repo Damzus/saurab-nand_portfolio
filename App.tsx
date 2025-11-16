@@ -5,7 +5,6 @@ import { MailIcon } from './components/icons/MailIcon';
 import { ExternalLinkIcon } from './components/icons/ExternalLinkIcon';
 import { MoonIcon } from './components/icons/MoonIcon';
 import { SunIcon } from './components/icons/SunIcon';
-import { DownloadIcon } from './components/icons/DownloadIcon';
 import { ChevronUpIcon } from './components/icons/ChevronUpIcon';
 
 const experienceData = [
