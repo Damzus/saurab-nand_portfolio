@@ -59,6 +59,7 @@ This site is automatically deployed to GitHub Pages via GitHub Actions whenever 
 If you need to deploy manually or set up GitHub Pages for the first time:
 
 1. Push your changes to GitHub:
+
    ```bash
    git add .
    git commit -m "Deploy to GitHub Pages"
@@ -66,6 +67,7 @@ If you need to deploy manually or set up GitHub Pages for the first time:
    ```
 
 2. Go to your GitHub repository settings:
+
    - Navigate to **Settings** > **Pages**
    - Under **Source**, select **GitHub Actions**
    - The workflow will automatically build and deploy your site
