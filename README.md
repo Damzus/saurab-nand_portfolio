@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite.
 
+🌐 **Live Demo:** [https://damzus.github.io/saurab-nand_portfolio/](https://damzus.github.io/saurab-nand_portfolio/)
+
 ## Tech Stack
 
 - **React 19** - UI library
@@ -47,3 +49,29 @@ The built files will be in the `dist` directory.
 ```bash
 npm run preview
 ```
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages via GitHub Actions whenever you push to the `main` branch.
+
+### Manual Deployment Steps
+
+If you need to deploy manually or set up GitHub Pages for the first time:
+
+1. Push your changes to GitHub:
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+2. Go to your GitHub repository settings:
+   - Navigate to **Settings** > **Pages**
+   - Under **Source**, select **GitHub Actions**
+   - The workflow will automatically build and deploy your site
+
+3. Your site will be live at: `https://damzus.github.io/saurab-nand_portfolio/`
+
+### Deployment Status
+
+Check the **Actions** tab in your GitHub repository to monitor deployment progress.
