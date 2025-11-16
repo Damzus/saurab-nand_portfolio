@@ -185,7 +185,7 @@ const App: React.FC = () => {
     const observers: IntersectionObserver[] = [];
     const sections = ['experience', 'projects', 'education', 'skills', 'certifications'];
 
-    sections.forEach((sectionId) => {
+    for (const sectionId of sections) {
       const element = document.getElementById(sectionId);
       if (element) {
         const observer = new IntersectionObserver(
@@ -199,7 +199,7 @@ const App: React.FC = () => {
         observer.observe(element);
         observers.push(observer);
       }
-    });
+    }
 
     // Track scroll position for back to top button
     const handleScroll = () => {
@@ -208,7 +208,9 @@ const App: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      observers.forEach((observer) => observer.disconnect());
+      for (const observer of observers) {
+        observer.disconnect();
+      }
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
