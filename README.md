@@ -2,18 +2,52 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Saurab Nand | Personal Portfolio
 
-This contains everything you need to run your app locally.
+A modern, responsive portfolio website built with React, TypeScript, and Vite.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## Tech Stack
+
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling (assumed based on project structure)
 
 ## Run Locally
 
-**Prerequisites:** Node.js
+**Prerequisites:** Node.js (v16 or higher recommended)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Damzus/saurab-nand_portfolio.git
+   cd saurab-nand_portfolio
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
